@@ -111,7 +111,7 @@ header h1 {
 nav {
   position: absolute;
   left: 0px;
-  top: 50%;
+  top: 240px;
   margin-top: -200px;
   width: 100px;
   background-color: #231f20;
