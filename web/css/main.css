@@ -221,9 +221,79 @@ nav {
   color: #fff;
 }
 
+.content-title.seasonal {
+    margin-top: 24px;
+}
+
 .news-link {
   color: #ee4035;
   display: block;
+}
+
+.beer-list {
+    overflow: hidden;
+}
+.beer-item {
+    position: relative;
+    margin: 16px 0px;
+}
+.beer-logo {
+    width: 90px;
+    float: left;
+    margin-right: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.beer-name {
+    margin: 0;
+    line-height: 16px;
+    color: #ee4035;
+}
+
+.name-subtext {
+    font-size: 11px;
+    font-style: italic;
+    color: #CCC;
+    font-weight: 200;
+}
+
+.beer-info {
+    padding-left: 102px;
+    min-height: 130px;
+}
+
+.beer-info-item {
+    margin: 6px 6px 6px 0;
+    float: left;
+    line-height: 16px;
+}
+.beer-info-item.style {
+    font-style: italic;
+}
+
+.beer-info-item.abv {
+    color: #ccb361;
+}
+
+.beer-info-item.abv:before {
+    content: 'ABV:';
+    padding-right: 4px;
+}
+
+.beer-info-item.ibu {
+    color: #ccb361;
+}
+
+.beer-info-item.ibu:before {
+    content: 'IBU:';
+    padding-right: 4px;
+}
+
+.beer-description {
+    clear: left;
+    margin: 0;
 }
 
 /* FOOTER
