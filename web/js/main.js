@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-var startSection = 'beer';
+var startSection = 'home';
   
 $(".nav-link").click(function() {
   var current = $(this).attr("data-target");
